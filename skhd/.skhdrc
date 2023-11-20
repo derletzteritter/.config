@@ -1,0 +1,36 @@
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+shift + alt- h : yabai -m window --swap west
+shift + alt - j : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - l : yabai -m window --swap east
+
+shift + cmd  - h : yabai -m window --warp west
+shift + cmd - j : yabai -m window --warp south
+shift + cmd - k : yabai -m window --warp north
+shift + cmd - l : yabai -m window --warp east
+
+
+# set insertion point in focused container
+alt + ctrl - h : yabai -m window --insert west
+alt + ctrl - j : yabai -m window --insert south
+alt + ctrl - k : yabai -m window --insert north
+alt + ctrl - l : yabai -m window --insert east
+
+# fullscreen
+alt - f : yabai -m window --toggle zoom-fullscreen
+
+# change layout of desktop
+alt - e : yabai -m space --layout bsp
+alt - s : yabai -m space --layout stack
+
+# shift + alt - a : yabai -m window --resize left:-20:0
+# shift + alt - w : yabai -m window --resize top:0:-20
+
+# decrease window size
+# shift + cmd - s : yabai -m window --resize bottom:0:-20
+# shift + cmd - w : yabai -m window --resize top:0:20
+
